@@ -1,0 +1,250 @@
+description: "Default Chassis Config for Asterfusion X-T Platforms"
+chassis {
+  platform: PLT_GENERIC_BAREFOOT_TOFINO
+  name: "X312P-48Y-T Barefoot"
+}
+nodes {
+  id: 1
+  slot: 1
+  index: 1
+}
+singleton_ports {
+  id: 1300
+  name: "30/0 C1"
+  slot: 1
+  port: 30
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1320
+  name: "32/0 C2"
+  slot: 1
+  port: 32
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1060
+  name: "6/0 C3"
+  slot: 1
+  port: 6
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1020
+  name: "2/0 C4"
+  slot: 1
+  port: 2
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1040
+  name: "4/0 C5"
+  slot: 1
+  port: 4
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1050
+  name: "5/0 C6"
+  slot: 1
+  port: 5
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1030
+  name: "3/0 C7"
+  slot: 1
+  port: 3
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1010
+  name: "1/0 C8"
+  slot: 1
+  port: 1
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1310
+  name: "31/0 C9"
+  slot: 1
+  port: 31
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1290
+  name: "29/0 C10"
+  slot: 1
+  port: 29
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1270
+  name: "27/0 C11"
+  slot: 1
+  port: 27
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1280
+  name: "28/0 C12"
+  slot: 1
+  port: 28
+  channel: 1
+  speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1100
+  name: "10/0 Y35"
+  slot: 1
+  port: 10
+  channel: 1
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1101
+  name: "10/1 Y34"
+  slot: 1
+  port: 10
+  channel: 2
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1102
+  name: "10/2"
+  slot: 1
+  port: 10
+  channel: 3
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1103
+  name: "10/3"
+  slot: 1
+  port: 10
+  channel: 4
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1120
+  name: "12/0 Y36"
+  slot: 1
+  port: 12
+  channel: 1
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1121
+  name: "12/1"
+  slot: 1
+  port: 12
+  channel: 2
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1122
+  name: "12/2"
+  slot: 1
+  port: 12
+  channel: 3
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1123
+  name: "12/3"
+  slot: 1
+  port: 12
+  channel: 4
+  speed_bps: 10000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
