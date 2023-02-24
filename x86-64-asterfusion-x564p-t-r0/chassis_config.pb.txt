@@ -1,4 +1,4 @@
-description: "Default Chassis Config for Asterfusion X-T Platforms"
+description: "Default Chassis Config for Asterfusion X-T Bare Metal"
 chassis {
   platform: PLT_GENERIC_BAREFOOT_TOFINO
   name: "X564P-T Barefoot"
@@ -771,6 +771,30 @@ singleton_ports {
   port: 64
   channel: 1
   speed_bps: 100000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1650
+  name: "65/0 Y1"
+  slot: 1
+  port: 65
+  channel: 1
+  speed_bps: 25000000000
+  config_params {
+    admin_state: ADMIN_STATE_ENABLED
+  }
+  node: 1
+}
+singleton_ports {
+  id: 1651
+  name: "65/1 Y2"
+  slot: 1
+  port: 65
+  channel: 2
+  speed_bps: 25000000000
   config_params {
     admin_state: ADMIN_STATE_ENABLED
   }
